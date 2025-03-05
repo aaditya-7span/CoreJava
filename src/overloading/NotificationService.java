@@ -17,6 +17,7 @@ public class NotificationService {
         NotificationService notificationService = new NotificationService();
 
         notificationService.sendNotification("account is blocked");
+
         notificationService.sendNotification("your consultant details ", "34567876543", "amit@gmail.com");
     }
 }
