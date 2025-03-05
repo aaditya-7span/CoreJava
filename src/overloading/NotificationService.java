@@ -1,4 +1,4 @@
-package overriding;
+package overloading;
 
 //Changing the Number of Parameters
 public class NotificationService {
@@ -17,7 +17,10 @@ public class NotificationService {
         NotificationService notificationService = new NotificationService();
 
         notificationService.sendNotification("account is blocked");
+<<<<<<< HEAD
 
+=======
+>>>>>>> 47af073910e313be0a549606d9f2db0f99ec7850
         notificationService.sendNotification("your consultant details ", "34567876543", "amit@gmail.com");
     }
 }
