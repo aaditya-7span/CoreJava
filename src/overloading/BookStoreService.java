@@ -13,11 +13,6 @@ public class BookStoreService {
 
     public static void main(String[] args) {
         BookStoreService bookstoreService = new BookStoreService();
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 47af073910e313be0a549606d9f2db0f99ec7850
         bookstoreService.purchaseBook("rich dad poor dad", "ram lakhan", 3);
         bookstoreService.purchaseBook(20, "maths text book", "mukeshbhai pathak");
     }
