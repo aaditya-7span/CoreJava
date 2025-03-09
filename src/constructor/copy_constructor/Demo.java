@@ -7,5 +7,6 @@ public class Demo {
 
         s1.display();
         s2.display();
+
     }
 }
